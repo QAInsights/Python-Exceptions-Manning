@@ -41,6 +41,8 @@ def syntax_exception():
         eval('pass = True')
     except SyntaxError as e:
         print(e)
+    else:
+        pass
     finally:
         print("Exit")
 
